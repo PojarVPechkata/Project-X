@@ -49,9 +49,9 @@
      <Compile Include="Assets\Scripts\Character Class\BaseCharacterClass.cs" />
      <Compile Include="Assets\Scripts\Character Class\BaseMageClass.cs" />
      <Compile Include="Assets\Scripts\Character Class\BaseWarriorClass.cs" />
-     <Compile Include="Assets\Scripts\Character Class\TestGUI.cs" />
      <Compile Include="Assets\Scripts\Create Player\CreateNewPlayer.cs" />
      <Compile Include="Assets\Scripts\GameInformation\GameInformation.cs" />
+     <Compile Include="Assets\Scripts\IncreaseExperience.cs" />
      <Compile Include="Assets\Scripts\Items\BaseEquipment.cs" />
      <Compile Include="Assets\Scripts\Items\BaseItem.cs" />
      <Compile Include="Assets\Scripts\Items\BasePotion.cs" />
@@ -62,11 +62,13 @@
      <Compile Include="Assets\Scripts\Items\CreateNewPotion.cs" />
      <Compile Include="Assets\Scripts\Items\CreateNewScroll.cs" />
      <Compile Include="Assets\Scripts\Items\CreateNewWeapon.cs" />
+     <Compile Include="Assets\Scripts\Player Movement\PlayerController.cs" />
      <Compile Include="Assets\Scripts\Player Movement\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\Saving And Loading\LoadInformation.cs" />
      <Compile Include="Assets\Scripts\Saving And Loading\PPSerialization.cs" />
      <Compile Include="Assets\Scripts\Saving And Loading\SaveInformation.cs" />
      <Compile Include="Assets\Scripts\Turn Base Combat\TurnBaseCombatStateMachine.cs" />
+     <Compile Include="Assets\TestGUI.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
